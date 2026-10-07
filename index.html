@@ -11,125 +11,145 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="page-shell">
-      <header class="topbar">
-        <div class="brand">Sibayo</div>
-        <nav class="nav" aria-label="Navegación principal">
-          <a href="#inicio">Inicio</a>
-          <a href="#nosotros">Nosotros</a>
-          <a href="#redes">Redes</a>
-        </nav>
-      </header>
+    <div class="bg-orb orb-one"></div>
+    <div class="bg-orb orb-two"></div>
 
-      <main>
-        <section class="hero" id="inicio">
-          <div class="hero-copy">
-            <p class="eyebrow">Hilos con alma</p>
-            <h1>Artesanías que cuentan historias.</h1>
-            <p class="lead">
-              En <strong>Sibayo Hilos del Alma</strong> creamos piezas hechas a
-              mano con dedicación, textura y un toque de identidad cultural.
+    <header class="topbar container">
+      <div class="brand" aria-label="Sibayo Hilos del Alma">Sibayo</div>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#redes">Redes</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow">Hilos con alma</p>
+          <h1>Artesanías que cuentan historias.</h1>
+          <p class="lead">
+            En <strong>Sibayo Hilos del Alma</strong> creamos piezas hechas a mano
+            con dedicación, detalle y una estética que celebra la identidad,
+            la tradición y la creatividad.
+          </p>
+
+          <div class="hero-actions">
+            <a class="primary-btn" href="#redes">Ver redes</a>
+            <a class="ghost-btn" href="#nosotros">Conocer más</a>
+          </div>
+
+          <div class="stats">
+            <div>
+              <strong>100%</strong>
+              <span>artesanal</span>
+            </div>
+            <div>
+              <strong>Hecho</strong>
+              <span>a mano</span>
+            </div>
+            <div>
+              <strong>Unico</strong>
+              <span>en su estilo</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Piezas artesanales">
+          <div class="visual-card main-card">
+            <div class="card-badge">Hecho a mano</div>
+            <div class="product-art">
+              <div class="string string-one"></div>
+              <div class="string string-two"></div>
+              <div class="string string-three"></div>
+            </div>
+          </div>
+          <div class="floating-note note-top">Textura</div>
+          <div class="floating-note note-bottom">Calidez</div>
+        </div>
+      </section>
+
+      <section class="about" id="nosotros">
+        <div class="section-heading">
+          <p class="eyebrow">Nuestra esencia</p>
+          <h2>Diseño artesanal con presencia y personalidad.</h2>
+        </div>
+
+        <div class="about-grid">
+          <article class="info-card">
+            <span>01</span>
+            <h3>Diseño auténtico</h3>
+            <p>
+              Cada pieza nace con una identidad visual clara, inspirada en la
+              tradición y en la sensibilidad contemporánea.
             </p>
-            <div class="hero-actions">
-              <a class="primary-btn" href="#redes">Visitar redes</a>
-              <a class="secondary-btn" href="#nosotros">Conocer más</a>
+          </article>
+
+          <article class="info-card">
+            <span>02</span>
+            <h3>Materiales con valor</h3>
+            <p>
+              Seleccionamos telas y detalles que aportan belleza, calidad y una
+              sensación cálida al tacto.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <span>03</span>
+            <h3>Hecho con cariño</h3>
+            <p>
+              Todo se trabaja con paciencia y dedicación, porque cada creación
+              merece ser vista, sentida y apreciada.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="social" id="redes">
+        <div class="section-heading centered">
+          <p class="eyebrow">Síguenos</p>
+          <h2>Descubre más de nuestro trabajo.</h2>
+        </div>
+
+        <div class="social-grid">
+          <a
+            class="social-card instagram"
+            href="https://www.instagram.com/hilos_del_alma_sibayo_n1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="icon-wrap">◎</div>
+            <div>
+              <strong>Instagram</strong>
+              <small>@hilos_del_alma_sibayo_n1</small>
             </div>
-          </div>
+          </a>
 
-          <div class="hero-visual" aria-label="Trabajo artesanal">
-            <div class="product-card card-main">
-              <span class="tag">Hecho a mano</span>
-              <div class="product-image">
-                <div class="thread thread-1"></div>
-                <div class="thread thread-2"></div>
-                <div class="thread thread-3"></div>
-              </div>
+          <a
+            class="social-card tiktok"
+            href="https://www.tiktok.com/@sibayo_hilos_del_alma"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="icon-wrap">♫</div>
+            <div>
+              <strong>TikTok</strong>
+              <small>@sibayo_hilos_del_alma</small>
             </div>
-            <div class="mini-card mini-a">Textura</div>
-            <div class="mini-card mini-b">Calidez</div>
-          </div>
-        </section>
+          </a>
+        </div>
+      </section>
+    </main>
 
-        <section class="about" id="nosotros">
-          <div class="section-heading">
-            <p class="eyebrow">Nuestra esencia</p>
-            <h2>Un emprendimiento hecho con paciencia y cariño.</h2>
-          </div>
-
-          <div class="about-grid">
-            <article>
-              <span>01</span>
-              <h3>Diseño auténtico</h3>
-              <p>
-                Cada pieza refleja una mirada artesanal, inspirada en la
-                tradición y en la creatividad actual.
-              </p>
-            </article>
-            <article>
-              <span>02</span>
-              <h3>Materiales cuidadosos</h3>
-              <p>
-                Seleccionamos telas, detalles y acabados que aportan valor,
-                belleza y durabilidad.
-              </p>
-            </article>
-            <article>
-              <span>03</span>
-              <h3>Hecho por manos</h3>
-              <p>
-                Todo se trabaja con atención, porque cada creación merece ser
-                vista, tocada y apreciada.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        <section class="social" id="redes">
-          <div class="section-heading centered">
-            <p class="eyebrow">Síguenos</p>
-            <h2>Encuéntranos en nuestras redes.</h2>
-          </div>
-
-          <div class="social-grid" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
-            <a
-              class="social-card instagram"
-              href="https://www.instagram.com/hilos_del_alma_sibayo_n1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span class="icon">◎</span>
-              <div>
-                <strong>Instagram</strong>
-                <small>@hilos_del_alma_sibayo_n1</small>
-              </div>
-            </a>
-
-            <a
-              class="social-card tiktok"
-              href="https://www.tiktok.com/@sibayo_hilos_del_alma"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span class="icon">♫</span>
-              <div>
-                <strong>TikTok</strong>
-                <small>@sibayo_hilos_del_alma</small>
-              </div>
-            </a>
-          </div>
-        </section>
-      </main>
-
-      <footer class="footer">
-        <p>© <span id="year"></span> Sibayo Hilos del Alma</p>
-      </footer>
-    </div>
+    <footer class="footer">
+      <p>© <span id="year"></span> Sibayo Hilos del Alma</p>
+    </footer>
 
     <script src="script.js"></script>
   </body>
